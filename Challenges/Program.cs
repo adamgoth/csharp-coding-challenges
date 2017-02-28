@@ -8,8 +8,13 @@ namespace Challenges
 		{
 			//Console.WriteLine("Hello World!");
 
-			string[] array = { "1", "2", "3" };
-			Challenges.ReverseArray.ReverseArrayMethod(array);
+			//Challenge #1 - Reverse an array
+			//string[] array = { "1", "2", "3" };
+			//Challenges.ReverseArray.ReverseArrayMethod(array);
+
+			//Challenge #2 - Convert decimal to binary
+			Challenges.IntegerToBinary.IntegerToBinaryMethod(8);
+
 		}
 
 	}
