@@ -13,7 +13,7 @@ namespace Challenges
 					sum += i;
 				}
 			}
-			Console.WriteLine(sum);
+			Console.WriteLine("Sum of odd numbers 1-{0} is {1}", num, sum);
 		}
 	}
 }
