@@ -13,8 +13,10 @@ namespace Challenges
 			//Challenges.ReverseArray.ReverseArrayMethod(array);
 
 			//Challenge #2 - Convert decimal to binary
-			Challenges.IntegerToBinary.IntegerToBinaryMethod(8);
+			//Challenges.IntegerToBinary.IntegerToBinaryMethod(8);
 
+			//Challenge #3 - Sum Odd Numbers in Range
+			Challenges.SumOddNumbers.SumOddNumbersUpTo(15);
 		}
 
 	}
