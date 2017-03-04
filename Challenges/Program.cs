@@ -16,7 +16,13 @@ namespace Challenges
 			//Challenges.IntegerToBinary.IntegerToBinaryMethod(8);
 
 			//Challenge #3 - Sum Odd Numbers in Range
-			Challenges.SumOddNumbers.SumOddNumbersUpTo(15);
+			//Challenges.SumOddNumbers.SumOddNumbersUpTo(15);
+
+			//Challenge #4 - Determine if string contains unique letters
+			Challenges.UniqueLetters.UniqueLettersIn("No duplicates");
+			Challenges.UniqueLetters.UniqueLettersIn("abcdefghijklmnopqrstuvwxyz");
+			Challenges.UniqueLetters.UniqueLettersIn("AaBbCc");
+			Challenges.UniqueLetters.UniqueLettersIn("Hello, world");
 		}
 
 	}

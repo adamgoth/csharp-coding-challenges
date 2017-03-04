@@ -37,6 +37,7 @@
     <Compile Include="ReverseArray.cs" />
     <Compile Include="IntegerToBinary.cs" />
     <Compile Include="SumOddNumbers.cs" />
+    <Compile Include="UniqueLetters.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
