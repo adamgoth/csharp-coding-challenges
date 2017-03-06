@@ -38,6 +38,7 @@
     <Compile Include="IntegerToBinary.cs" />
     <Compile Include="SumOddNumbers.cs" />
     <Compile Include="UniqueLetters.cs" />
+    <Compile Include="Palindrome.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -19,10 +19,16 @@ namespace Challenges
 			//Challenges.SumOddNumbers.SumOddNumbersUpTo(15);
 
 			//Challenge #4 - Determine if string contains unique letters
-			Challenges.UniqueLetters.UniqueLettersIn("No duplicates");
-			Challenges.UniqueLetters.UniqueLettersIn("abcdefghijklmnopqrstuvwxyz");
-			Challenges.UniqueLetters.UniqueLettersIn("AaBbCc");
-			Challenges.UniqueLetters.UniqueLettersIn("Hello, world");
+			//Challenges.UniqueLetters.UniqueLettersIn("No duplicates");
+			//Challenges.UniqueLetters.UniqueLettersIn("abcdefghijklmnopqrstuvwxyz");
+			//Challenges.UniqueLetters.UniqueLettersIn("AaBbCc");
+			//Challenges.UniqueLetters.UniqueLettersIn("Hello, world");
+
+			//Challenge #5 - Determine is string is a palindrome
+			Challenges.Palindrome.IsPalindrome("Racecar");
+			Challenges.Palindrome.IsPalindrome("Rats live on no evil star");
+			Challenges.Palindrome.IsPalindrome("Never odd or even");
+			Challenges.Palindrome.IsPalindrome("Hello, world");
 		}
 
 	}
