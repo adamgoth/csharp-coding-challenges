@@ -25,10 +25,18 @@ namespace Challenges
 			//Challenges.UniqueLetters.UniqueLettersIn("Hello, world");
 
 			//Challenge #5 - Determine is string is a palindrome
-			Challenges.Palindrome.IsPalindrome("Racecar");
-			Challenges.Palindrome.IsPalindrome("Rats live on no evil star");
-			Challenges.Palindrome.IsPalindrome("Never odd or even");
-			Challenges.Palindrome.IsPalindrome("Hello, world");
+			//Challenges.Palindrome.IsPalindrome("Racecar");
+			//Challenges.Palindrome.IsPalindrome("Rats live on no evil star");
+			//Challenges.Palindrome.IsPalindrome("Never odd or even");
+			//Challenges.Palindrome.IsPalindrome("Hello, world");
+
+			//Challenge #6 - Determine if two strings have the same characters
+			Challenges.SameCharacters.SameCharactersInStrings("abca", "abca");
+			Challenges.SameCharacters.SameCharactersInStrings("abc", "cba");
+			Challenges.SameCharacters.SameCharactersInStrings("a1 b2", "b 1 a 2");
+			Challenges.SameCharacters.SameCharactersInStrings("abc", "abca");
+			Challenges.SameCharacters.SameCharactersInStrings("abc", "Abc");
+			Challenges.SameCharacters.SameCharactersInStrings("abc", "cbAa");
 		}
 
 	}
