@@ -31,12 +31,17 @@ namespace Challenges
 			//Challenges.Palindrome.IsPalindrome("Hello, world");
 
 			//Challenge #6 - Determine if two strings have the same characters
-			Challenges.SameCharacters.SameCharactersInStrings("abca", "abca");
-			Challenges.SameCharacters.SameCharactersInStrings("abc", "cba");
-			Challenges.SameCharacters.SameCharactersInStrings("a1 b2", "b 1 a 2");
-			Challenges.SameCharacters.SameCharactersInStrings("abc", "abca");
-			Challenges.SameCharacters.SameCharactersInStrings("abc", "Abc");
-			Challenges.SameCharacters.SameCharactersInStrings("abc", "cbAa");
+			//Challenges.SameCharacters.SameCharactersInStrings("abca", "abca");
+			//Challenges.SameCharacters.SameCharactersInStrings("abc", "cba");
+			//Challenges.SameCharacters.SameCharactersInStrings("a1 b2", "b 1 a 2");
+			//Challenges.SameCharacters.SameCharactersInStrings("abc", "abca");
+			//Challenges.SameCharacters.SameCharactersInStrings("abc", "Abc");
+			//Challenges.SameCharacters.SameCharactersInStrings("abc", "cbAa");
+
+			//Challenges #7 - Determine occurances of a character in a string
+			Challenges.CountCharacters.CountCharacterIn(Convert.ToChar("a"), "The rain in Spain");
+			Challenges.CountCharacters.CountCharacterIn(Convert.ToChar("i"), "Mississippi");
+			Challenges.CountCharacters.CountCharacterIn(Convert.ToChar("i"), "Hacking with Swift");
 		}
 
 	}
